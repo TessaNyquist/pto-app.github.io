@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.CompanyName {
+  align-items: center;
+  font-family: cursive;
+  color: white;
+}
+
+.App-title {
+  align-items: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Login {
+  font-size: small;
+}
