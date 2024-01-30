@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import { PageLayout } from './components/PageLayout';
+import { PageLayout } from './client/components/PageLayout';
 import { loginRequest } from './authConfig';
 import { callMsGraph } from './graph';
-import { ProfileData } from './components/ProfileData';
+import { ProfileData } from './client/components/ProfileData';
 
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from '@azure/msal-react';
 
@@ -12,7 +12,7 @@ import './App.css';
 import Button from 'react-bootstrap/Button';
 //import Login from './Login.js';
 
-import { EmployeeData } from './components/EmployeeData';
+import { EmployeeData } from './client/components/EmployeeData';
 
 
 //import Login from './Login.js';
