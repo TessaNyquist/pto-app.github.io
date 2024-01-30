@@ -1,12 +1,12 @@
 import React from "react";
-import "./ProfileData.css";
+
 /**
  * Renders information about the user obtained from MS Graph 
  * @param props
  */
-export const ProfileData = (props) => {
+export const EmployeeData = (props) => {
   return (
-    <div id="profile-div">
+    <div id="employee-div">
       <p>
         <strong>First Name: </strong> {props.graphData.givenName}
       </p>
