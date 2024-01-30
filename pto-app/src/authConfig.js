@@ -65,3 +65,7 @@ export const loginRequest = {
 export const graphConfig = {
     graphMeEndpoint: "https://graph.microsoft.com/v1.0/me",
 };
+
+export const employeeGraphConfig = {
+    graphMeEndpoint: "https://graph.microsoft.com/v1.0/me/profile",
+};
