@@ -49,17 +49,13 @@ const ProfileContent = () => {
 */
 const MainContent = () => {
   return (
-      <div className="App">
+      <div className="MainContent">
           <AuthenticatedTemplate>
               <ProfileContent />
           </AuthenticatedTemplate>
 
           <UnauthenticatedTemplate>
-              <h5>
-                  <center>
-                      Please sign-in to see your profile information.
-                  </center>
-              </h5>
+              <h5 className="UnauthTemplate"> Please sign-in to see your profile information.</h5>
           </UnauthenticatedTemplate>
       </div>
   );

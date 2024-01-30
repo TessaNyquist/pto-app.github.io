@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-.CompanyName {
-  align-items: center;
-  font-family: cursive;
-  color: white;
+  background-color: #282c34;
 }
 
 .App-title {
@@ -15,18 +11,19 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.MainContent {
+  min-height: 50vh;
+  color: black;
+}
+.UnauthTemplate {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.Login {
-  font-size: small;
-}

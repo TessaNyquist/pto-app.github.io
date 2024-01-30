@@ -1,4 +1,5 @@
 import React from "react";
+import "./ProfileData.css";
 /**
  * Renders information about the user obtained from MS Graph 
  * @param props
