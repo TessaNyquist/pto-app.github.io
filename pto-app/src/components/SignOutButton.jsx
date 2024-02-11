@@ -29,7 +29,7 @@ export const SignOutButton = () => {
     className="ml-auto"
     drop="start"
     title="Sign In"
-    onClick={() => handleLogout("redirect")}> Sign In </Button>
+    onClick={() => handleLogout("redirect")}> Sign Out </Button>
   );
 };
 
