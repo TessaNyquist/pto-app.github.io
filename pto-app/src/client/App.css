@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-title {
+  align-items: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.MainContent {
+  min-height: 50vh;
+  color: black;
+}
+.UnauthTemplate {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}

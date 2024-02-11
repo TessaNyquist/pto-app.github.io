@@ -1,7 +1,8 @@
 import React from "react";
 import { useMsal } from "@azure/msal-react";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Dropdown from "react-bootstrap/Dropdown";
+//import DropdownButton from "react-bootstrap/DropdownButton";
+//import Dropdown from "react-bootstrap/Dropdown";
+import Button from "react-bootstrap/esm/Button";
 
 /**
  * Renders a sign out button 
@@ -23,7 +24,17 @@ export const SignOutButton = () => {
   };
 
   return (
-    <DropdownButton
+  <Button       
+    variant="secondary"
+    className="ml-auto"
+    drop="start"
+    title="Sign In"
+    onClick={() => handleLogout("redirect")}> Sign In </Button>
+  );
+};
+
+/**
+ *     <DropdownButton
       variant="secondary"
       className="ml-auto"
       drop="start"
@@ -36,5 +47,4 @@ export const SignOutButton = () => {
         Sign out using Redirect
       </Dropdown.Item>
     </DropdownButton>
-  );
-};
+ */
